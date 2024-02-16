@@ -17,13 +17,4 @@ STEAMCMD_ZIP_PATH: Path = WORKING_DIR / 'Steam' / Path(STEAMCMD_URL).name
 
 SERVER_NAME: str = ""
 
-SERVER_PATH = WORKING_DIR / 'Ark_Servers' / SERVER_NAME
-
-# ASA_INSTALL_COMMANDS = [
-#     f"+force_install_dir \"{WORKING_DIR}\"",
-#     "+login anonymous",
-#     "+app_update 2430930 validate",
-#     "+exit"
-# ]
-
-# ASA_INSTALL_COMMAND = f"+force_install_dir {WORKING_DIR} && +login anonymous && +app_update 2430930 validate && +exit"
+SERVER_PATH = WORKING_DIR / 'Ark_Servers'
