@@ -9,7 +9,7 @@ import flet as ft
 def main(page: ft.Page):
     page.title = "Ark Server Manager"
 
-    def close_banner(e):
+    def close_banner(_):
         page.banner.open = False
         page.update()
 
@@ -36,8 +36,11 @@ def main(page: ft.Page):
 
     def on_start_server(_):
         server: Server = Server(server_name=server_name_field.value, server_port=int(server_port_field.value))
-        commands.run_steam_cmd(server)
-        commands.start_server(server)
+        if server.server_directory.is_dir():
+            server.start()
+        else:
+            server.install()
+            server.start()
 
     server_path_field = ft.TextField(label="Server Location",
                                      expand=True,
@@ -46,7 +49,9 @@ def main(page: ft.Page):
                                             on_click=on_install_steamcmd)
     server_name_field = ft.TextField(label="Server Name")
 
-    server_start_button = ft.IconButton(icon=ft.icons.START, on_click=on_start_server, tooltip="Install and Start Server")
+    server_start_button = ft.IconButton(icon=ft.icons.START,
+                                        on_click=on_start_server,
+                                        tooltip="Install and Start Server")
 
     server_port_field = ft.TextField(label="Port", hint_text='27019')
 

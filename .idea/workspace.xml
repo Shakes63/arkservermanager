@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeb7cbfe-2def-42b8-853a-f824d46cecba" name="Changes" comment="Fixed server not installing in folder with the server name, and set new logger to keep flet logs out of my logs">
-      <change afterPath="$PROJECT_DIR$/servers_test.py" afterDir="false" />
+    <list default="true" id="aeb7cbfe-2def-42b8-853a-f824d46cecba" name="Changes" comment="Added a server class and implemented it to install and start servers. Also added a banner for info messages.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/commands.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
@@ -83,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708056396469</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a server class and implemented it to install and start servers. Also added a banner for info messages.">
+      <option name="closed" value="true" />
+      <created>1708664323075</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708664323075</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Got Steamcmd working" />
     <MESSAGE value="Fixed server not installing in folder with the server name, and set new logger to keep flet logs out of my logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed server not installing in folder with the server name, and set new logger to keep flet logs out of my logs" />
+    <MESSAGE value="Added a server class and implemented it to install and start servers. Also added a banner for info messages." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a server class and implemented it to install and start servers. Also added a banner for info messages." />
   </component>
 </project>
