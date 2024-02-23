@@ -1,20 +1,13 @@
 import os
 from pathlib import Path
 
-ASA_STEAM_ID: str = '2430930'
-
 STEAMCMD_URL: str = 'https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip'
-
-USERNAME: str = os.getlogin()
 
 DEFAULT_WORKING_DIR: Path = Path.home().joinpath('Ark_Server_Manager')
 
-WORKING_DIR: Path = Path.home().joinpath('Ark_Server_Manager')
+working_dir: Path = Path.home().joinpath('Ark_Server_Manager')
 
-STEAMCMD_EXE_PATH: Path = WORKING_DIR / 'Steam' / 'steamcmd.exe'
+STEAMCMD_EXE_PATH: Path = working_dir / 'Steam' / 'steamcmd.exe'
 
-STEAMCMD_ZIP_PATH: Path = WORKING_DIR / 'Steam' / Path(STEAMCMD_URL).name
+STEAMCMD_ZIP_PATH: Path = working_dir / 'Steam' / Path(STEAMCMD_URL).name
 
-SERVER_NAME: str = ""
-
-SERVER_PATH = WORKING_DIR / 'Ark_Servers'
