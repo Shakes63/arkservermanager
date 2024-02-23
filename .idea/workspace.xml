@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeb7cbfe-2def-42b8-853a-f824d46cecba" name="Changes" comment="Added a server class and implemented it to install and start servers. Also added a banner for info messages.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/commands.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servers.py" beforeDir="false" afterPath="$PROJECT_DIR$/servers.py" afterDir="false" />
-    </list>
+    <list default="true" id="aeb7cbfe-2def-42b8-853a-f824d46cecba" name="Changes" comment="Moved functions for installing and starting servers into the server class." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708664323075</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Moved functions for installing and starting servers into the server class.">
+      <option name="closed" value="true" />
+      <created>1708667024525</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708667024525</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +110,7 @@
     <MESSAGE value="Got Steamcmd working" />
     <MESSAGE value="Fixed server not installing in folder with the server name, and set new logger to keep flet logs out of my logs" />
     <MESSAGE value="Added a server class and implemented it to install and start servers. Also added a banner for info messages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a server class and implemented it to install and start servers. Also added a banner for info messages." />
+    <MESSAGE value="Moved functions for installing and starting servers into the server class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved functions for installing and starting servers into the server class." />
   </component>
 </project>
